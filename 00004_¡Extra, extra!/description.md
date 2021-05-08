@@ -18,7 +18,7 @@
         "type": "Integer",
         "pk": true,
         "fk": {
-          "to": { "entity": "usuaries", "column": "id_usuarie" },
+          "to": { "entity": "usuarios", "column": "id_usuario" },
           "type": "many_to_one"
         }
       },
@@ -34,11 +34,11 @@
       "foto_video_url": {
         "type": "Text"
       },
-      "id_duenie": {
+      "id_duenio": {
         "type": "Integer",
         "pk": false,
         "fk": {
-          "to": { "entity": "usuaries", "column": "id_usuarie" },
+          "to": { "entity": "usuarios", "column": "id_usuario" },
           "type": "many_to_one"
         }
       },
@@ -49,12 +49,12 @@
         "type": "Integer"
       }
     },
-    "usuaries": {
-      "id_usuarie": {
+    "usuarios": {
+      "id_usuario": {
         "type": "Integer",
         "pk": true
       },
-      "nombre_usuarie": {
+      "nombre_usuario": {
         "type": "Text"
       },
       "foto_perfil_url": {
