@@ -13,3 +13,6 @@ Y si es necesario, lápiz y papel nunca están de más. :memo: Podés anotarte:
 * ¿Qué datos necesito?
 * ¿Qué datos tengo?
 * ¿Dónde?
+
+Recordá que tenemos la función `COUNT()` y que podemos devolver ese resultado bajo un nombre con la palabra clave `AS`
+También que en SQL tenemos el operador NOT :stuck_out_tongue_winking_eye:
