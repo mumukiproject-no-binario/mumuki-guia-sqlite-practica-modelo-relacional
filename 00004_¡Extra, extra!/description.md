@@ -1,4 +1,4 @@
-¿Pero qué gracia tiene hacer publicaciones si nuestros amigos o familiares no pueden comentar? :unamused:
+¿Pero qué gracia tiene hacer publicaciones si nuestres amigues o familiares no pueden comentar? :unamused:
 
 ¡Agreguemosles comentarios a las publicaciones entonces! :smile: 
 
@@ -18,7 +18,7 @@
         "type": "Integer",
         "pk": true,
         "fk": {
-          "to": { "entity": "usuarios", "column": "id_usuario" },
+          "to": { "entity": "usuaries", "column": "id_usuarie" },
           "type": "many_to_one"
         }
       },
@@ -34,11 +34,11 @@
       "foto_video_url": {
         "type": "Text"
       },
-      "id_duenio": {
+      "id_duenie": {
         "type": "Integer",
         "pk": false,
         "fk": {
-          "to": { "entity": "usuarios", "column": "id_usuario" },
+          "to": { "entity": "usuaries", "column": "id_usuarie" },
           "type": "many_to_one"
         }
       },
@@ -49,12 +49,12 @@
         "type": "Integer"
       }
     },
-    "usuarios": {
-      "id_usuario": {
+    "usuaries": {
+      "id_usuarie": {
         "type": "Integer",
         "pk": true
       },
-      "nombre_usuario": {
+      "nombre_usuarie": {
         "type": "Text"
       },
       "foto_perfil_url": {
