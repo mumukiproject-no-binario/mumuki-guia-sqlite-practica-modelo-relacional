@@ -25,7 +25,7 @@ Con eso ya podemos armar este modelo inicial:
       "foto_video_url": {
         "type": "Text"
       },
-      "id_duenie": {
+      "id_duenio": {
         "type": "Integer",
         "pk": false,
         "fk": {
