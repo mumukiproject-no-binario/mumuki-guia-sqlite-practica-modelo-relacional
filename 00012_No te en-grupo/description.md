@@ -1,6 +1,6 @@
 Veamos un concepto más. 
 
-Supongamos que quisiéramos mostrar a cada usuario con la cantidad de seguidores que tiene. 
+Supongamos que quisiéramos mostrar a cada usuarie con la cantidad de seguidores que tiene. 
 
 Podríamos hacer esta consulta:
 
