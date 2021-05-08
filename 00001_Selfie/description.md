@@ -5,12 +5,12 @@ Con eso ya podemos armar este modelo inicial:
 <div
   class='mu-erd'
   data-entities='{
-    "usuaries": {
-      "id_usuarie": {
+    "usuarios": {
+      "id_usuario": {
         "type": "Integer",
         "pk": true
       },
-      "nombre_usuarie": {
+      "nombre_usuario": {
         "type": "Text"
       },
       "foto_perfil_url": {
@@ -29,7 +29,7 @@ Con eso ya podemos armar este modelo inicial:
         "type": "Integer",
         "pk": false,
         "fk": {
-          "to": { "entity": "usuaries", "column": "id_usuarie" },
+          "to": { "entity": "usuarios", "column": "id_usuario" },
           "type": "many_to_one"
         }
       },
