@@ -1,4 +1,4 @@
-Ahora queremos armar una lista con los nombres de los seguidores de "valen_s". 
+Ahora queremos armar una lista con los nombres de les seguidores de "valen_s". 
 
 El problema es que no sabemos su ID, por lo que necesitamos hacer un _join_ entre la tabla de usuarios y la de seguidores, sabiendo que es la _seguida_.
 
